@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var backLabel: UILabel!
     @IBOutlet weak var card: UIView!
     
-    
     @IBOutlet weak var btnOptionOne: UIButton!
     @IBOutlet weak var btnOptionTwo: UIButton!
     @IBOutlet weak var btnOptionThree: UIButton!
@@ -32,7 +31,6 @@ class ViewController: UIViewController {
         frontLabel.clipsToBounds = true
         backLabel.clipsToBounds = true
         
-        //Button Edits
         btnOptionOne.layer.cornerRadius = 15.0
         btnOptionOne.layer.borderWidth = 3.0
         btnOptionOne.layer.borderColor = #colorLiteral(red: 0.9762788415, green: 0.460699141, blue: 0.02100392245, alpha: 1)
@@ -59,7 +57,4 @@ class ViewController: UIViewController {
         btnOptionThree.isHidden = true
     }
     
-    
-    
-
 }

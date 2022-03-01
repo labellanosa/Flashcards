@@ -51,13 +51,15 @@ class ViewController: UIViewController {
         btnOptionOne.isHidden = true
     }
     
+    @IBAction func didTapOptionTwo(_ sender: Any) {
+            frontLabel.isHidden = true
+        }
+    
     @IBAction func didTapOptionThree(_ sender: Any) {
         btnOptionThree.isHidden = true
     }
     
-    @IBAction func didTapOptionTwo(_ sender: Any) {
-        frontLabel.isHidden = true
-    }
+    
     
 
 }

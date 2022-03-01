@@ -77,6 +77,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                         <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="8S4-WF-rmh" appends="YES" id="24i-wY-nU9"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="backLabel" destination="QkZ-tn-Mz2" id="FvR-iN-gM4"/>
@@ -90,7 +93,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="8S4-WF-rmh">
                     <connections>
-                        <action selector="didTapOptionThree:" destination="BYZ-38-t0r" id="LXn-IA-Nku"/>
+                        <action selector="didTapOnFlashcard:" destination="BYZ-38-t0r" id="REJ-Fh-kaw"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

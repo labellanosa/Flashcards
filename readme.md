@@ -7,7 +7,7 @@ The flashcard app will help you learn how to study. This app is only at its firs
 
 ### App Walk-though
 
-<img src="" width=200><br>
+<img src="/Users/labellanosa/Downloads/Screen_Recording_2022-03-01_at_1_21_52_PM_AdobeCreativeCloudExpress.gif" width=200><br>
 
 ## Required
 - [X] Create New Project in Xcode

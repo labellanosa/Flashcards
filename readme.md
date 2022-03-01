@@ -3,12 +3,11 @@
 ## Lab 1
 
 ### App Description
-`TODO://` The flashcard app will help you learn how to study. This app is only at its first stage so we only have one question which is "What is the capital of Norway?" and when you click the flashcard itself, it will reveal the answer. This allows you to study efficiently through repetition. 
+The flashcard app will help you learn how to study. This app is only at its first stage so we only have one question which is "What is the capital of Norway?" and when you click the flashcard itself, it will reveal the answer. This allows you to study efficiently through repetition. 
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-<img src="/Users/labellanosa/Downloads/Screen_Recording_2022-03-01_at_1_21_52_PM_AdobeCreativeCloudExpress.gif" width=200><br>
+<img src="" width=200><br>
 
 ## Required
 - [X] Create New Project in Xcode

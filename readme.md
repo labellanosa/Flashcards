@@ -7,7 +7,8 @@
 
 ### App Walk-though
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="![flashcards](https://user-images.githubusercontent.com/75414965/159103890-8504f12c-4551-4f2a-a4aa-f82960ff1020.gif)
+" width=200><br>
 
 ## Required
 - [x] User can open the creation screen

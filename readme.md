@@ -1,5 +1,25 @@
 ## FLASHCARDS
 
+## Lab 2
+
+### App Description
+`This is an updated flashcard where you are able to implement your own questions and multiple answers options, not only that, you can edit the flashcard as well if you make a mistake.
+
+### App Walk-though
+
+<img src="YOUR_GIF_URL_HERE" width=200><br>
+
+## Required
+- [x] User can open the creation screen
+- [x] User can cancel out of the creation screen
+- [x] User can enter a new question and answer in the creation screen to then show it on the flashcard
+- [x] Push code to GitHub
+## Optional
+- [x] User gets an error if they try to create a new flashcard with no question or answer
+- [x] User can edit existing flashcard
+- [x] User can add multiple choice answers in the creation screen
+
+
 ## Lab 1
 
 ### App Description
@@ -19,3 +39,4 @@ The flashcard app will help you learn how to study. This app is only at its firs
 - [X] Toggle the flashcard between the question side and the answer side
 - [X] Style the question and answer side of the card to better distinguish between the two sides
 - [X] Add selectable multiple choice answers beneath the card
+

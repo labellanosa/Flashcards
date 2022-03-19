@@ -3,12 +3,11 @@
 ## Lab 2
 
 ### App Description
-`This is an updated flashcard where you are able to implement your own questions and multiple answers options, not only that, you can edit the flashcard as well if you make a mistake.
+This is an updated flashcard where you are able to implement your own questions and multiple answers options, not only that, you can edit the flashcard as well if you make a mistake.
 
 ### App Walk-though
 
-<img src="![flashcards](https://user-images.githubusercontent.com/75414965/159103890-8504f12c-4551-4f2a-a4aa-f82960ff1020.gif)
-" width=200><br>
+<img src="https://user-images.githubusercontent.com/75414965/159103919-0c20b58a-eb41-4e52-b186-5fa3d9728032.gif" width=200><br>
 
 ## Required
 - [x] User can open the creation screen

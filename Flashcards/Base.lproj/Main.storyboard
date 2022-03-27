@@ -102,6 +102,30 @@
                                     <segue destination="2PS-rN-fYs" kind="show" id="swb-Fl-GIY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6p-pA-Udf">
+                                <rect key="frame" x="301" y="820" width="64" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.41591094299999998" green="0.71154908459999999" blue="0.4712966495" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="didTapOnNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="huD-we-B04"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOC-HW-kz6">
+                                <rect key="frame" x="52" y="820" width="62" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.41591094299999998" green="0.71154908459999999" blue="0.4712966495" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Prev">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="didTapOnPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DmJ-IR-s7E"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -117,6 +141,8 @@
                         <outlet property="answerThree" destination="bMp-HW-Qoo" id="ngG-H4-dM2"/>
                         <outlet property="answerTwo" destination="VbS-PD-NSJ" id="9wJ-1b-Kb4"/>
                         <outlet property="card" destination="2Qv-nB-oUm" id="NqR-fV-ijR"/>
+                        <outlet property="nextButton" destination="d6p-pA-Udf" id="SqX-5Y-qsU"/>
+                        <outlet property="prevButton" destination="JOC-HW-kz6" id="0KK-QW-gpv"/>
                         <outlet property="questionLabel" destination="K55-nH-cMQ" id="IeH-46-Tcl"/>
                     </connections>
                 </viewController>
@@ -223,7 +249,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="G1v-hu-g7g"/>
+        <segue reference="swb-Fl-GIY"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">

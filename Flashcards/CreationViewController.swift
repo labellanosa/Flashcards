@@ -21,7 +21,6 @@ class CreationViewController: UIViewController {
     @IBOutlet weak var extraAnswer1: UITextField!
     @IBOutlet weak var extraAnswer2: UITextField!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -41,17 +40,16 @@ class CreationViewController: UIViewController {
         let answerText = answerTextField.text
         let answerOne = extraAnswer1.text
         let answerTwo = extraAnswer2.text
-        let alert = UIAlertController(title: "Missing text", message: "You need to enter both a question and an answer.", preferredStyle: .alert)
-        let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+        
+        let alert = UIAlertController(title: "Missing text", message: "You need to enter both a question and an answer.", preferredStyle: UIAlertController.Style .alert)
+        let okAction = UIAlertAction(title: "Ok", style: .default)
         alert.addAction(okAction)
         
-        if questionText == nil || answerText == nil || questionText!.isEmpty || answerText!.isEmpty {
+        if questionText == nil || questionText!.isEmpty || answerText == nil || answerText!.isEmpty {
             present(alert, animated: true)
             
         } else {
-            
-            flashcardsController.updateFlashcard(question: questionText!, answer1: answerText!, answer2: answerOne!, answer3: answerTwo!)
-            
+            flashcardsController.updateFlashcard(question: questionText!, answer: answerText!)
         }
 
         dismiss(animated: true)
